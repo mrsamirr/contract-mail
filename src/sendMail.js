@@ -18,7 +18,7 @@ const mailOptions = {
         name: "samer",
         address: process.env.USER
     }, // sender address
-    to: ["mdsameransari45@gmail.com","aec.cse.ayushbhalotia@gmail.com","priyansusingh3344@gmail.com","sharmaom2k4@gmail.com","nilamkumari2k4@gmail.com","oliviasahadav2004@gmail.com"], // list of receivers
+    to: ["mdsameransari45@gmail.com"], // list of receivers
     subject: "Completion of Contract Agreement Between Buyer and Farmers", // Subject line
     html: `
 <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">

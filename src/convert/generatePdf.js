@@ -30,7 +30,7 @@ async function convertToPdf(htmlContent, outputFile) {
 
     await browser.close();
 }
-const htmlFilePath = path.join(__dirname, '..', 'contract', 'contract2.html');
+const htmlFilePath = path.join(__dirname, '..', 'contract', 'contract.html');
 const outputDir = path.join(__dirname, './../generate');
 const outputFile = path.join(outputDir, 'contract.pdf');
 
